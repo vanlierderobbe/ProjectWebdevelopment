@@ -594,3 +594,4 @@ C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\refint\brood
 C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.pdb
 C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.genruntimeconfig.cache
 C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\ref\broodjeszaak.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.sourcelink.json
