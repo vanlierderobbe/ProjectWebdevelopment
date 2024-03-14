@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h1>Welkom bij de Broodjeszaak</h1>
+    <h2>Menu</h2>
+    <ul>
+        <li>@Html.ActionLink("Bestelling plaatsen", "Create", "Order")</li>
+        <li>@Html.ActionLink("Samenvatting van alle bestellingen", "Index", "Order")</li>
+        <li>@Html.ActionLink("Individuele bestellingen", "Details", "Order")</li>
+    </ul>
+    <h2>Administrator</h2>
+    <ul>
+        <li>@Html.ActionLink("Inloggen als administrator", "Login", "Account", new { area = "Admin" }, null)</li>
+        <li>@Html.ActionLink("Prijzen van de producten aanpassen", "EditPrices", "Product", new { area = "Admin" }, null)</li>
+        <li>@Html.ActionLink("Administrator beheer", "ManageAdmins", "Admin")</li>
+        <li>@Html.ActionLink("Gebruikers goedkeuren", "ApproveUsers", "Admin")</li>
+    </ul>
+</div>

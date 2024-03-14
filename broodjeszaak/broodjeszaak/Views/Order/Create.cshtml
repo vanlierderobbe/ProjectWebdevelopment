@@ -1,0 +1,36 @@
+﻿@model Order
+
+@{
+    ViewBag.Title = "Plaats Bestelling";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div id="order-form">
+        @Html.HiddenFor(model => model.UserId) <!-- Dit wordt automatisch ingevuld als de gebruiker is ingelogd -->
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.OrderDetails[0].ProductId, "Product")
+            @Html.DropDownListFor(model => model.OrderDetails[0].ProductId, new SelectList(ViewBag.Products, "Value", "Text"), "Kies een product", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.OrderDetails[0].ProductId)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.OrderDetails[0].Quantity, "Hoeveelheid")
+            @Html.EditorFor(model => model.OrderDetails[0].Quantity, new { htmlAttributes = new { @class = "form-control", @type = "number", @min = "1" } })
+            @Html.ValidationMessageFor(model => model.OrderDetails[0].Quantity)
+        </div>
+
+        <!-- Voeg knop toe voor het toevoegen van meer producten met JavaScript -->
+
+        <input type="submit" value="Bestelling Plaatsen" class="btn btn-primary" />
+    </div>
+}
+
+@section Scripts {
+    <!-- Voeg hier je JavaScript toe om dynamisch meer producten toe te kunnen voegen -->
+}

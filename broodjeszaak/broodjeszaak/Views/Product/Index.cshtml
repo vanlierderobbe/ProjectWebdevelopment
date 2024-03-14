@@ -1,0 +1,27 @@
+﻿@model IEnumerable<broodjeszaak.Models.Product>
+
+<h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Naam</th>
+            <th>Prijs</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ProductID)</td>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                <td>
+                    <!-- Actieknoppen hier (Edit, Details, Delete, etc.) -->
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

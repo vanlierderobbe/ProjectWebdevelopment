@@ -1,0 +1,596 @@
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.AssemblyInfo.cs
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.MvcApplicationPartsAssemblyInfo.cache
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.RazorAssemblyInfo.cache
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.RazorAssemblyInfo.cs
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\appsettings.Development.json
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\appsettings.json
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.staticwebassets.runtime.json
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.exe
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.deps.json
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.runtimeconfig.json
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.pdb
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Humanizer.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\MySqlConnector.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Drawing.Common.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Runtime.Caching.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Security.Permissions.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Windows.Extensions.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.MvcApplicationPartsAssemblyInfo.cs
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets.build.json
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets.development.json
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.broodjeszaak.Microsoft.AspNetCore.StaticWebAssets.props
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.build.broodjeszaak.props
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.broodjeszaak.props
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.broodjeszaak.props
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets.pack.json
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\scopedcss\bundle\broodjeszaak.styles.css
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\scopedcss\projectbundle\broodjeszaak.bundle.scp.css
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.CopyComplete
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\refint\broodjeszaak.dll
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.pdb
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.genruntimeconfig.cache
+\\Mac\Home\Documents\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\ref\broodjeszaak.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\appsettings.Development.json
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\appsettings.json
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.staticwebassets.runtime.json
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.exe
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.deps.json
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.runtimeconfig.json
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.pdb
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Humanizer.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\MySqlConnector.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.AssemblyReference.cache
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.AssemblyInfoInputs.cache
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.AssemblyInfo.cs
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.CoreCompileInputs.cache
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.MvcApplicationPartsAssemblyInfo.cs
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.MvcApplicationPartsAssemblyInfo.cache
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.RazorAssemblyInfo.cache
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.RazorAssemblyInfo.cs
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets.build.json
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets.development.json
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.broodjeszaak.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.build.broodjeszaak.props
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.broodjeszaak.props
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.broodjeszaak.props
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\scopedcss\bundle\broodjeszaak.styles.css
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\scopedcss\projectbundle\broodjeszaak.bundle.scp.css
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.CopyComplete
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\refint\broodjeszaak.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.pdb
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.genruntimeconfig.cache
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\obj\Debug\net6.0\ref\broodjeszaak.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\MessagePack.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Build.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Common.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\af\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ar\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\az\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\bg\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\da\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\el\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fa\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\he\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\hr\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\hu\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\hy\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\id\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\is\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ku\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\lv\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\mt\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\nb\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\nl\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ro\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\sk\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\sl\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\sr\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\sv\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\uk\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\vi\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Webdevelopment 2\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\appsettings.Development.json
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\appsettings.json
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.staticwebassets.runtime.json
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.exe
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.deps.json
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.runtimeconfig.json
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\broodjeszaak.pdb
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Humanizer.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\MessagePack.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Build.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\MySqlConnector.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Common.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\af\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ar\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\az\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\bg\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\da\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\el\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fa\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\he\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\hr\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\hu\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\hy\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\id\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\is\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ku\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\lv\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\mt\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\nb\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\nl\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ro\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\sk\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\sl\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\sr\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\sv\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\uk\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\vi\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.AssemblyReference.cache
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.AssemblyInfoInputs.cache
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.AssemblyInfo.cs
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.CoreCompileInputs.cache
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.MvcApplicationPartsAssemblyInfo.cs
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.MvcApplicationPartsAssemblyInfo.cache
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.RazorAssemblyInfo.cache
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.RazorAssemblyInfo.cs
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets.build.json
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets.development.json
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.broodjeszaak.Microsoft.AspNetCore.StaticWebAssets.props
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.build.broodjeszaak.props
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.broodjeszaak.props
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.broodjeszaak.props
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\staticwebassets.pack.json
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\scopedcss\bundle\broodjeszaak.styles.css
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\scopedcss\projectbundle\broodjeszaak.bundle.scp.css
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.CopyComplete
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\refint\broodjeszaak.dll
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.pdb
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\broodjeszaak.genruntimeconfig.cache
+C:\ProjectWebdevelopment\broodjeszaak\broodjeszaak\obj\Debug\net6.0\ref\broodjeszaak.dll
