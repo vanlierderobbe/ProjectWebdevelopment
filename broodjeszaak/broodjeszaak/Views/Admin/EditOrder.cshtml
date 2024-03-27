@@ -1,0 +1,40 @@
+﻿@model broodjeszaak.Models.EditOrderViewModel
+
+@{
+    ViewData["Title"] = "Bestelling Bewerken";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="EditOrder" asp-route-orderId="@Model.OrderId" method="post">
+    <input type="hidden" asp-for="OrderId" />
+
+    <div class="mb-3">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Productnaam</th>
+                    <th>Hoeveelheid</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.OrderDetails.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            @Html.HiddenFor(model => model.OrderDetails[i].OrderDetailId)
+                            @Html.HiddenFor(model => model.OrderDetails[i].ProductId)
+                            @Html.HiddenFor(model => model.OrderDetails[i].ProductName) <!-- Verborgen veld voor ProductName -->
+                            @Html.DisplayFor(model => model.OrderDetails[i].ProductName)
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(model => model.OrderDetails[i].Quantity, new { @class = "form-control", type = "number", min = "1" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Opslaan</button>
+</form>

@@ -13,10 +13,9 @@
     {
         <h2>Admin</h2>
         <ul>
-            <li>@Html.ActionLink("Beheer Bestellingen", "ManageOrders", "Admin")</li>
-            <li>@Html.ActionLink("Beheer Prijzen", "EditPrices", "Product", new { area = "Admin" }, null)</li>
-            <li>@Html.ActionLink("Beheer Administrators", "ManageAdministrators", "Admin")</li>
-            <li>@Html.ActionLink("Goedkeuren Gebruikers", "ApproveUsers", "Admin")</li>
+            <li>@Html.ActionLink("Beheer Bestellingen", "OrderList", "Admin")</li>
+            <li>@Html.ActionLink("Beheer prijzen", "EditProductPrices", "Admin")</li>
+            <li>@Html.ActionLink("Beheer Administrators en gebruikers", "Index", "Admin")</li>
         </ul>
     }
 

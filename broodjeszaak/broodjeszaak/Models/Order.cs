@@ -1,9 +1,11 @@
-﻿namespace broodjeszaak.Models
+﻿using System.Collections.Generic;
+
+namespace broodjeszaak.Models
 {
     public class Order
     {
         public int OrderId { get; set; }
-        public string UserId { get; set; } // Zorg ervoor dat dit overeenkomt met je User model
+        public string UserId { get; set; }
         public List<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
     }
 
@@ -17,7 +19,7 @@
         public decimal Price
         {
             get => _price;
-            set => _price = Math.Round(value, 2); // Rond het prijsgetal af tot 2 decimalen
+            set => _price = Math.Round(value, 2);
         }
         public Product Product { get; set; }
     }

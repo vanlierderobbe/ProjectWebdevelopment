@@ -1,0 +1,42 @@
+﻿@model List<broodjeszaak.Models.UserOrderSummaryViewModel>
+
+@{
+    ViewData["Title"] = "Bestellingen Overzicht";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="DeleteOrders" method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Selecteren</th>
+                <th scope="col">Bestelling ID</th>
+                <th scope="col">Gebruiker Email</th>
+                <th scope="col">Totaal Prijs</th>
+                <th scope="col">Acties</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var userOrder in Model)
+            {
+                foreach (var order in userOrder.Orders)
+                {
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="orderIds" value="@order.OrderId" />
+                        </td>
+                        <td>@order.OrderId</td>
+                        <td>@userOrder.UserEmail</td>
+                        <td>@order.TotalPrice</td>
+                        <td>
+                            <a asp-action="EditOrder" asp-route-orderId="@order.OrderId" class="btn btn-primary">Aanpassen</a>
+                            <a asp-action="DeleteOrder" asp-route-orderId="@order.OrderId" class="btn btn-danger">Verwijderen</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    <button type="submit" class="btn btn-danger">Geselecteerde Bestellingen Verwijderen</button>
+</form>
