@@ -13,7 +13,12 @@
         public int OrderId { get; set; }
         public int ProductId { get; set; }
         public int Quantity { get; set; }
-        public decimal Price { get; set; }
+        private decimal _price;
+        public decimal Price
+        {
+            get => _price;
+            set => _price = Math.Round(value, 2); // Rond het prijsgetal af tot 2 decimalen
+        }
         public Product Product { get; set; }
     }
 }

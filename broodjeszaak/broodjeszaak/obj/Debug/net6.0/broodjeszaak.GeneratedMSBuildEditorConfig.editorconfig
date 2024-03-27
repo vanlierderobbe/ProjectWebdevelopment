@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/ProjectWebdevelopment/broodjeszaak/broodjeszaak/Views/Order/IndividualOrdersSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kaXZpZHVhbE9yZGVyc1N1bW1hcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ProjectWebdevelopment/broodjeszaak/broodjeszaak/Views/Order/Summary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcU3VtbWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

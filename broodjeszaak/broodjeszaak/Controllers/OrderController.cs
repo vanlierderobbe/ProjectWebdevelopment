@@ -96,7 +96,6 @@ namespace broodjeszaak.Controllers
             return Json(new { success = false });
         }
 
-
         // GET: Order/Summary
         [Authorize(Roles = "Employee, Admin")]
         public IActionResult Summary()
@@ -118,6 +117,46 @@ namespace broodjeszaak.Controllers
             ViewBag.TotalOrderPrice = totalOrderPrice;
 
             return View(orderSummary);
+        }
+
+        // GET: Order/IndividualOrdersSummary
+        [Authorize(Roles = "Employee, Admin")]
+        public async Task<IActionResult> IndividualOrdersSummary()
+        {
+            var userOrders = await _context.Orders
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Product)
+                .ToListAsync();
+
+            var ordersGroupedByUser = userOrders
+                .GroupBy(o => o.UserId)
+                .Select(group => new UserOrderSummaryViewModel
+                {
+                    UserId = group.Key,
+                    UserEmail = GetUserEmail(group.Key), // Correct e-mailadres ophalen
+                    Orders = group.Select(o => new OrderViewModel
+                    {
+                        OrderId = o.OrderId,
+                        OrderDetails = o.OrderDetails.Select(od => new OrderDetailViewModel
+                        {
+                            ProductId = od.ProductId,
+                            ProductName = od.Product.Name,
+                            Quantity = od.Quantity,
+                            Price = od.Price
+                        }).ToList(),
+                        TotalPrice = o.OrderDetails.Sum(od => od.Quantity * od.Price)
+                    }).ToList(),
+                    TotalPricePerUser = group.Sum(o => o.OrderDetails.Sum(od => od.Quantity * od.Price))
+                }).ToList();
+
+            return View(ordersGroupedByUser);
+        }
+
+        // Hulpfunctie om het e-mailadres van de gebruiker op te halen op basis van de UserId
+        private string GetUserEmail(string userId)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
+            return user != null ? user.Email : "Onbekend"; // Geef het e-mailadres terug, of "Onbekend" als het niet gevonden wordt
         }
     }
 }

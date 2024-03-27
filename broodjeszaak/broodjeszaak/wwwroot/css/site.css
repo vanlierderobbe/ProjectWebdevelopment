@@ -22,3 +22,9 @@ body {
     bottom: auto;
     margin-bottom: 120px;
 }
+
+#listind {
+    position: relative;
+    bottom: auto;
+    margin-bottom: 90px;
+}
