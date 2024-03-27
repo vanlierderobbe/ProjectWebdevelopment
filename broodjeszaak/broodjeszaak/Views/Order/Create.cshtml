@@ -1,36 +1,135 @@
-﻿@model Order
-
+﻿@model broodjeszaak.Models.Order
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
 @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Plaats Bestelling";
 }
 
-<h2>@ViewBag.Title</h2>
-
-@using (Html.BeginForm())
+@if (!User.Identity.IsAuthenticated)
 {
-    @Html.AntiForgeryToken()
-
-    <div id="order-form">
-        @Html.HiddenFor(model => model.UserId) <!-- Dit wordt automatisch ingevuld als de gebruiker is ingelogd -->
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.OrderDetails[0].ProductId, "Product")
-            @Html.DropDownListFor(model => model.OrderDetails[0].ProductId, new SelectList(ViewBag.Products, "Value", "Text"), "Kies een product", new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.OrderDetails[0].ProductId)
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.OrderDetails[0].Quantity, "Hoeveelheid")
-            @Html.EditorFor(model => model.OrderDetails[0].Quantity, new { htmlAttributes = new { @class = "form-control", @type = "number", @min = "1" } })
-            @Html.ValidationMessageFor(model => model.OrderDetails[0].Quantity)
-        </div>
-
-        <!-- Voeg knop toe voor het toevoegen van meer producten met JavaScript -->
-
-        <input type="submit" value="Bestelling Plaatsen" class="btn btn-primary" />
+    <div class="alert alert-warning" role="alert">
+        Je moet <a href="/Account/Login">inloggen</a> om een bestelling te plaatsen.
     </div>
 }
 
+<h2 class="my-4">@ViewBag.Title</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var product in ViewData["Products"] as List<broodjeszaak.Models.Product>)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <!-- Verondersteld dat je afbeeldingen hebt in wwwroot/images -->
+                    <img src="@Url.Content($"~/images/{product.ImagePath}.jpg")" class="card-img-top" alt="Afbeelding voor @product.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p>Prijs: €@product.Price</p> <!-- Voeg deze lijn toe -->
+                        <input type="number" id="quantity_@product.ProductID" min="1" value="1" class="form-control mb-2 quantity" style="width: 80px;">
+                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="@product.ProductID" data-product-name="@product.Name" data-product-price="@product.Price">Toevoegen aan winkelmand</button> <!-- Voeg data-product-price toe -->
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-12">
+                <h3>Winkelwagen</h3>
+                <div class="table-responsive">
+                    <table class="table" id="cart">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Hoeveelheid</th>
+                                <th>Acties</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Items worden hier toegevoegd -->
+                        </tbody>
+                    </table>
+                </div>
+                <p id="total-price">Totaalprijs: €0.00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mt-4 mb-4">
+                <!-- Voeg mb-4 toe om een marge onderaan toe te voegen -->
+                <button type="button" id="place-order" class="btn btn-success">Bestelling Plaatsen</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 @section Scripts {
-    <!-- Voeg hier je JavaScript toe om dynamisch meer producten toe te kunnen voegen -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+            function updateCart() {
+                const cartElement = document.querySelector('#cart tbody');
+                cartElement.innerHTML = ''; // Reset de inhoud van de tabel
+                let totalPrice = 0; // Initialiseer de totaalprijs
+
+                cart.forEach((item, index) => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                                    <td>${item.name}</td>
+                                    <td>${item.quantity}</td>
+                                    <td>
+                                        <button class="btn btn-danger remove-item" data-index="${index}">
+                                            Verwijder
+                                        </button>
+                                    </td>
+                                `;
+                    cartElement.appendChild(row);
+
+                    totalPrice += item.price * item.quantity; // Bereken de totaalprijs voor elk product in het winkelmandje
+                });
+
+                const totalPriceElement = document.querySelector('#total-price');
+                totalPriceElement.textContent = 'Totaalprijs: €' + totalPrice.toFixed(2); // Toon de totaalprijs
+
+                localStorage.setItem('cart', JSON.stringify(cart));
+            }
+
+            document.querySelectorAll('.add-to-cart').forEach(button => {
+                button.addEventListener('click', function () {
+                    const productId = this.dataset.productId;
+                    const productName = this.dataset.productName;
+                    const productPrice = parseFloat(this.dataset.productPrice); // Voeg deze regel toe om de prijs van het product op te halen
+                    const quantityInput = document.querySelector(`#quantity_${productId}`);
+                    const quantity = parseInt(quantityInput.value, 10) || 0;
+
+                    if (quantity > 0) {
+                        const existingItem = cart.find(item => item.productId === productId);
+                        if (existingItem) {
+                            existingItem.quantity += quantity;
+                        } else {
+                            cart.push({ productId, name: productName, quantity, price: productPrice }); // Sla de prijs van het product op
+                        }
+                        updateCart();
+                    } else {
+                        alert('Voer een geldig aantal in.');
+                    }
+                });
+            });
+
+            document.getElementById('cart').addEventListener('click', function (e) {
+                if (e.target.classList.contains('remove-item')) {
+                    const index = e.target.dataset.index;
+                    cart.splice(index, 1);
+                    updateCart();
+                }
+            });
+
+            updateCart();
+        });
+    </script>
 }

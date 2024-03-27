@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Webdevelopment 2\broodjeszaak\broodjeszaak
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Webdevelopment 2/broodjeszaak/broodjeszaak/Views/Accounts/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+[C:/Webdevelopment 2/broodjeszaak/broodjeszaak/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Webdevelopment 2/broodjeszaak/broodjeszaak/Views/Accounts/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcUmVnaXN0ZXIuY3NodG1s
+[C:/Webdevelopment 2/broodjeszaak/broodjeszaak/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Webdevelopment 2/broodjeszaak/broodjeszaak/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Webdevelopment 2/broodjeszaak/broodjeszaak/Views/Admin/OrderSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJTdW1tYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Webdevelopment 2/broodjeszaak/broodjeszaak/Views/Home/Index.cshtml]

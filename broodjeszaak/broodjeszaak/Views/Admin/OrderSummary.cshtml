@@ -1,0 +1,53 @@
+﻿@model List<broodjeszaak.Models.Order>
+
+@{
+    ViewData["Title"] = "Order Summary";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Model != null && Model.Count > 0)
+{
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Aantal</th>
+                            <th>Prijs per stuk</th>
+                            <th>Totaalprijs</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in Model)
+                        {
+                            foreach (var orderDetail in order.OrderDetails)
+                            {
+                                <tr>
+                                    <td>@orderDetail.Product.Name</td>
+                                    <td>@orderDetail.Quantity</td>
+                                    <td>€@orderDetail.Price.ToString("0.00")</td>
+                                    <td>€@(orderDetail.Quantity * orderDetail.Price).ToString("0.00")</td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h4>Totaalprijs: €@Model.Sum(o => o.OrderDetails.Sum(od => od.Quantity * od.Price)).ToString("0.00")</h4>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <p>Er zijn geen bestellingen gevonden.</p>
+}

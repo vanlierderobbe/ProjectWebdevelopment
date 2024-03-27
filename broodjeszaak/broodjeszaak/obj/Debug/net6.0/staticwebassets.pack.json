@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\broodjeszaak.bundle.scp.css"
     },
     {
+      "Id": "C:\\ProjectWebdevelopment\\broodjeszaak\\broodjeszaak\\wwwroot\\._.DS_Store",
+      "PackagePath": "staticwebassets\\._.DS_Store"
+    },
+    {
       "Id": "C:\\ProjectWebdevelopment\\broodjeszaak\\broodjeszaak\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\ProjectWebdevelopment\\broodjeszaak\\broodjeszaak\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\ProjectWebdevelopment\\broodjeszaak\\broodjeszaak\\wwwroot\\images\\broodje-gezond.jpg",
+      "PackagePath": "staticwebassets\\images\\broodje-gezond.jpg"
+    },
+    {
+      "Id": "C:\\ProjectWebdevelopment\\broodjeszaak\\broodjeszaak\\wwwroot\\images\\broodje-ham.jpg",
+      "PackagePath": "staticwebassets\\images\\broodje-ham.jpg"
+    },
+    {
+      "Id": "C:\\ProjectWebdevelopment\\broodjeszaak\\broodjeszaak\\wwwroot\\images\\broodje-kaas.jpg",
+      "PackagePath": "staticwebassets\\images\\broodje-kaas.jpg"
     },
     {
       "Id": "C:\\ProjectWebdevelopment\\broodjeszaak\\broodjeszaak\\wwwroot\\js\\site.js",

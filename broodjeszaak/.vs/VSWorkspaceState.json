@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\broodjeszaak",
-    "\\broodjeszaak\\Views",
-    "\\broodjeszaak\\Views\\Shared"
+    "\\broodjeszaak\\Controllers"
   ],
-  "SelectedNode": "\\broodjeszaak\\Program.cs",
+  "SelectedNode": "\\broodjeszaak\\Controllers\\OrderController.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<broodjeszaak.Models.UserViewModel>
+
+@{
+    ViewData["Title"] = "Beheer gebruikers";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Acties</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>
+                    @if (!user.IsAdmin)
+                    {
+                        <a asp-action="AddAdmin" asp-route-userId="@user.Id" class="btn btn-success">Maak Admin</a>
+                    }
+                    else
+                    {
+                        <a asp-action="RemoveAdmin" asp-route-userId="@user.Id" class="btn btn-danger">Verwijder Admin</a>
+                    }
+                    @if (!user.IsApproved)
+                    {
+                        <a asp-action="ApproveUser" asp-route-userId="@user.Id" class="btn btn-primary">Keur Goed</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
