@@ -1,0 +1,35 @@
+﻿@model List<broodjeszaak.Models.OrderSummaryViewModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Samenvatting Bestellingen";
+}
+
+<h2 class="my-4">@ViewBag.Title</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Aantal</th>
+                        <th>Totaalprijs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.ProductName</td>
+                            <td>@item.Quantity</td>
+                            <td>€@item.TotalPrice.ToString("0.00")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <p><strong>Totaalprijs voor alle bestellingen:</strong> €@ViewBag.TotalOrderPrice.ToString("0.00")</p>
+        </div>
+    </div>
+</div>

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace broodjeszaak.Controllers
@@ -65,7 +66,39 @@ namespace broodjeszaak.Controllers
             return View(order);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken] // Zorg ervoor dat dit overeenkomt met je AJAX request
+        public async Task<IActionResult> CreateOrder([FromBody] CreateOrderViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var order = new Order { UserId = User.FindFirstValue(ClaimTypes.NameIdentifier) }; // Zorg dat dit overeenkomt met je User model
+
+                foreach (var item in model.Cart)
+                {
+                    var product = await _context.Products.FindAsync(item.ProductId);
+                    if (product != null)
+                    {
+                        var orderDetail = new OrderDetail
+                        {
+                            ProductId = item.ProductId,
+                            Quantity = item.Quantity,
+                            Price = product.Price // Neem aan dat de prijs nog geldig is; anders hier verifiëren
+                        };
+                        order.OrderDetails.Add(orderDetail);
+                    }
+                }
+
+                _context.Orders.Add(order);
+                await _context.SaveChangesAsync();
+                return Json(new { success = true });
+            }
+            return Json(new { success = false });
+        }
+
+
         // GET: Order/Summary
+        [Authorize(Roles = "Employee, Admin")]
         public IActionResult Summary()
         {
             var orderSummary = _context.OrderDetails

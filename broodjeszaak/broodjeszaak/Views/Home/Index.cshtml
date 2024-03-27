@@ -7,13 +7,25 @@
     <h2>Menu</h2>
     <ul>
         <li>@Html.ActionLink("Bestelling plaatsen", "Create", "Order")</li>
-        <li>@Html.ActionLink("Samenvatting van alle bestellingen", "Index", "Order")</li>
-        <li>@Html.ActionLink("Individuele bestellingen", "Details", "Order")</li>
     </ul>
-    <h2>Administrator</h2>
-    <ul>
-        <li>@Html.ActionLink("Inloggen als administrator", "Login", "Account", new { area = "Admin" }, null)</li>
-        <li>@Html.ActionLink("Prijzen van de producten aanpassen", "EditPrices", "Product", new { area = "Admin" }, null)</li>
-        <li>@Html.ActionLink("Administrator en gebruikers beheer", "", "Admin")</li>
-    </ul>
+
+    @if (User.IsInRole("Admin"))
+    {
+        <h2>Admin</h2>
+        <ul>
+            <li>@Html.ActionLink("Beheer Bestellingen", "ManageOrders", "Admin")</li>
+            <li>@Html.ActionLink("Beheer Prijzen", "EditPrices", "Product", new { area = "Admin" }, null)</li>
+            <li>@Html.ActionLink("Beheer Administrators", "ManageAdministrators", "Admin")</li>
+            <li>@Html.ActionLink("Goedkeuren Gebruikers", "ApproveUsers", "Admin")</li>
+        </ul>
+    }
+
+    @if (User.IsInRole("Employee") || User.IsInRole("Admin"))
+    {
+        <h2>Employee</h2>
+        <ul>
+            <li>@Html.ActionLink("Samenvatting van alle bestellingen", "Summary", "Order")</li>
+            <li>@Html.ActionLink("Individuele bestellingen bijhouden", "TrackOrders", "Order")</li>
+        </ul>
+    }
 </div>

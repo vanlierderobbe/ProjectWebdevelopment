@@ -130,6 +130,43 @@
             });
 
             updateCart();
+
+            document.getElementById('place-order').addEventListener('click', function () {
+                const cart = JSON.parse(localStorage.getItem('cart')) || [];
+                if (cart.length > 0) {
+                    fetch('/Order/CreateOrder', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'RequestVerificationToken': document.getElementsByName('__RequestVerificationToken')[0].value // Zorg voor CSRF bescherming
+                        },
+                        body: JSON.stringify({ cart })
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.success) {
+                                localStorage.removeItem('cart'); // Leeg de winkelwagen na succesvolle bestelling
+                                alert('Bestelling succesvol geplaatst!'); // Toon een bevestigingsbericht
+
+                                // Optioneel: Update de UI om aan te geven dat de winkelwagen leeg is
+                                updateCartUI();
+                            } else {
+                                alert('Er was een probleem met het plaatsen van de bestelling.');
+                            }
+                        });
+                } else {
+                    alert('Voeg eerst producten toe aan de winkelwagen.');
+                }
+            });
+
+            function updateCartUI() {
+                // Implementeer logica hier om de UI te updaten, zoals het leegmaken van de tabel die de winkelwagen toont
+                const cartElement = document.querySelector('#cart tbody');
+                cartElement.innerHTML = ''; // Leeg de tabelinhoud
+
+                const totalPriceElement = document.querySelector('#total-price');
+                totalPriceElement.textContent = 'Totaalprijs: €0.00'; // Reset de totaalprijs
+            }
         });
     </script>
 }

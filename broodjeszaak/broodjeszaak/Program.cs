@@ -67,7 +67,7 @@ using (var scope = app.Services.CreateScope())
 
 async Task InitializeRolesAsync(RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager)
 {
-    string[] roleNames = { "Admin", "User" }; // Definieer je rollen
+    string[] roleNames = { "Admin", "Employee", "User" }; // Definieer je rollen inclusief "Employee"
     foreach (var roleName in roleNames)
     {
         var roleExist = await roleManager.RoleExistsAsync(roleName);
@@ -78,10 +78,30 @@ async Task InitializeRolesAsync(RoleManager<IdentityRole> roleManager, UserManag
         }
     }
 
+    var employeeEmail = "employee@vives.be";
+    var employeeUserName = employeeEmail;
+    var employeePassword = "Employee123!"; // Zorg voor een sterk wachtwoord in productie
+
+    var employeeUser = await userManager.FindByEmailAsync(employeeEmail);
+    if (employeeUser == null)
+    {
+        employeeUser = new IdentityUser
+        {
+            UserName = employeeUserName,
+            Email = employeeEmail
+        };
+        var createEmployeeResult = await userManager.CreateAsync(employeeUser, employeePassword);
+        if (createEmployeeResult.Succeeded)
+        {
+            await userManager.AddToRoleAsync(employeeUser, "Employee"); // Voeg de rol "Employee" toe aan de gebruiker
+        }
+        // Overweeg hier logging toe te voegen voor het geval dat het aanmaken van de werknemer mislukt
+    }
+
     // Aanmaken van een standaard admin gebruiker
-    var adminEmail = "robbe@vives.be";
+    var adminEmail = "admin@vives.be";
     var adminUserName = adminEmail;
-    var adminPassword = "Robbe123!"; // Zorg voor een sterk wachtwoord in productie
+    var adminPassword = "Admin123!"; // Zorg voor een sterk wachtwoord in productie
 
     var adminUser = await userManager.FindByEmailAsync(adminEmail);
     if (adminUser == null)

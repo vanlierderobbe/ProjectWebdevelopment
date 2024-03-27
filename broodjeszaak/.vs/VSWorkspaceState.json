@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\broodjeszaak",
-    "\\broodjeszaak\\Controllers"
+    "\\broodjeszaak\\Controllers",
+    "\\broodjeszaak\\Views",
+    "\\broodjeszaak\\Views\\Home"
   ],
-  "SelectedNode": "\\broodjeszaak\\Controllers\\OrderController.cs",
+  "SelectedNode": "\\broodjeszaak\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

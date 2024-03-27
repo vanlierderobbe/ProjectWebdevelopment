@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("broodjeszaak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d64feca59e877f949ba519b7127165b205a2ce1")]
 [assembly: System.Reflection.AssemblyProductAttribute("broodjeszaak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("broodjeszaak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
