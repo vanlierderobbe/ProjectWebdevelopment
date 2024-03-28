@@ -1,21 +1,61 @@
-﻿@model IEnumerable<broodjeszaak.Models.Product>
+﻿@model IList<broodjeszaak.Models.Product>
 
 @{
-    ViewData["Title"] = "Bewerk Productprijzen";
+    ViewData["Title"] = "Bewerk producten en prijzen";
 }
 
-<h2>@ViewData["Title"]</h2>
+<div class="container mt-3">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
 
-<form asp-action="EditProductPrices" method="post">
-    @foreach (var product in Model)
-    {
-        <div>
-            @Html.HiddenFor(m => product.ProductID)
-            @Html.HiddenFor(m => product.Name)
-            @Html.HiddenFor(m => product.ImagePath)
-            <label>Prijs:</label>
-            @Html.TextBoxFor(m => product.Price, new { type = "number", step = "0.01", @class = "form-control" })
+    <form asp-action="EditProductPrices" method="post">
+        <div class="row mb-2">
+            <div class="col-md-4"><strong>Product</strong></div>
+            <div class="col-md-4"><strong>Prijs</strong></div>
+            <div class="col-md-4"><strong>Acties</strong></div>
         </div>
-    }
-    <button type="submit" class="btn btn-primary">Opslaan</button>
-</form>
+
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <div class="form-group row">
+                @Html.HiddenFor(m => m[i].ProductID)
+                @Html.HiddenFor(m => m[i].Name)
+                @Html.HiddenFor(m => m[i].ImagePath)
+                <div class="col-md-4 align-self-center">
+                    <label>@Model[i].Name</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.TextBoxFor(m => m[i].Price, new { type = "number", step = "0.01", @class = "form-control" })
+                </div>
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-danger" onclick="deleteProduct(@Model[i].ProductID)">Verwijderen</button>
+                </div>
+            </div>
+        }
+
+        <button type="submit" class="btn btn-primary">Wijzigingen opslaan</button>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        function deleteProduct(productId) {
+            if (!confirm('Weet je zeker dat je dit product wilt verwijderen?')) return;
+
+            var form = document.createElement('form');
+            form.method = 'POST';
+            form.action = '/Admin/DeleteProduct';
+
+            var token = '@Html.AntiForgeryToken()';
+            form.innerHTML = token;
+
+            var idInput = document.createElement('input');
+            idInput.type = 'hidden';
+            idInput.name = 'productId';
+            idInput.value = productId;
+            form.appendChild(idInput);
+
+            document.body.appendChild(form);
+            form.submit();
+        }
+    </script>
+}

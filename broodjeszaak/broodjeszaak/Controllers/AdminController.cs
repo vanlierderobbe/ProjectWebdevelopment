@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Text;
 
 namespace broodjeszaak.Controllers
 {
@@ -91,17 +92,62 @@ namespace broodjeszaak.Controllers
             var user = await _userManager.FindByIdAsync(userId);
             if (user != null)
             {
+                // Voeg hier de logica toe om de gebruiker goed te keuren, indien van toepassing
                 var claim = new Claim("IsApproved", "True");
                 var result = await _userManager.AddClaimAsync(user, claim);
+
+                // Controleer of de gebruiker al tot de "User" rol behoort
+                var isInUserRole = await _userManager.IsInRoleAsync(user, "User");
+                if (!isInUserRole)
+                {
+                    // Voeg de gebruiker toe aan de "User" rol
+                    var addToRoleResult = await _userManager.AddToRoleAsync(user, "User");
+                    if (addToRoleResult.Succeeded)
+                    {
+                        _logger.LogInformation($"Gebruiker {user.Email} is succesvol goedgekeurd en toegevoegd aan de 'User' rol.");
+                    }
+                    else
+                    {
+                        _logger.LogWarning($"Kon gebruiker {user.Email} niet toevoegen aan 'User' rol.");
+                        // Hier kun je beslissen hoe je wilt omgaan met de fout
+                    }
+                }
+
                 if (result.Succeeded)
                 {
-                    // Logica voor het succesvol goedkeuren van de gebruiker
+                    // Logica voor succesvolle goedkeuring, indien nodig
+                    return RedirectToAction(nameof(Index));
                 }
                 else
                 {
-                    // Logica voor als het goedkeuren niet succesvol was
+                    // Logica voor mislukte goedkeuring
+                    _logger.LogWarning($"Kon gebruiker {user.Email} niet goedkeuren.");
+                    // Handel de fout af, bijvoorbeeld door een foutmelding te tonen
                 }
             }
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteUser(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                TempData["Error"] = "Gebruiker niet gevonden.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            var result = await _userManager.DeleteAsync(user);
+            if (result.Succeeded)
+            {
+                TempData["Success"] = "Gebruiker succesvol verwijderd.";
+            }
+            else
+            {
+                TempData["Error"] = "Er is een fout opgetreden bij het verwijderen van de gebruiker.";
+            }
+
             return RedirectToAction(nameof(Index));
         }
 
@@ -268,46 +314,96 @@ namespace broodjeszaak.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> EditProductPrices(List<Product> products)
+        public async Task<IActionResult> EditProductPrices(List<Product> updatedProducts)
+        {
+            if (!ModelState.IsValid)
+            {
+                // Logging en feedback voor ModelState fouten
+                _logger.LogWarning("ModelState is not valid.");
+                var errors = new StringBuilder();
+                foreach (var entry in ModelState)
+                {
+                    foreach (var error in entry.Value.Errors)
+                    {
+                        var errorMessage = $"Key: {entry.Key}, Error: {error.ErrorMessage}";
+                        _logger.LogWarning(errorMessage);
+                        errors.AppendLine(errorMessage);
+                    }
+                }
+                TempData["Error"] = errors.ToString();
+                // Laad de originele producten opnieuw om de gebruiker een kans te geven correcties aan te brengen
+                return View(await _context.Products.ToListAsync());
+            }
+
+            // Implementatie van bulk updates
+            var productIds = updatedProducts.Select(p => p.ProductID).ToList();
+            var productsToUpdate = await _context.Products
+                .Where(p => productIds.Contains(p.ProductID))
+                .ToListAsync();
+
+            foreach (var product in productsToUpdate)
+            {
+                var updatedProduct = updatedProducts.FirstOrDefault(p => p.ProductID == product.ProductID);
+                if (updatedProduct != null)
+                {
+                    product.Price = updatedProduct.Price;
+                    // Pas hier andere velden aan indien nodig
+                }
+            }
+
+            try
+            {
+                await _context.SaveChangesAsync();
+                _logger.LogInformation("Alle productprijzen zijn succesvol bijgewerkt.");
+                TempData["Success"] = "Alle productprijzen zijn succesvol bijgewerkt.";
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                _logger.LogError($"Concurrency fout bij het bijwerken van productprijzen: {ex.Message}");
+                TempData["Error"] = "Een ander gebruiker heeft deze gegevens mogelijk al gewijzigd. Probeer het opnieuw.";
+                return View(await _context.Products.ToListAsync());
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Fout bij het opslaan van wijzigingen: {ex.Message}");
+                TempData["Error"] = "Er is een fout opgetreden bij het opslaan van de wijzigingen.";
+                return View(await _context.Products.ToListAsync());
+            }
+
+            return RedirectToAction(nameof(EditProductPrices));
+        }
+
+        public IActionResult CreateProduct()
+        {
+            return View(new Product()); // Stuur een nieuw Product object naar de view
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateProduct(Product newProduct)
         {
             if (ModelState.IsValid)
             {
-                foreach (var updatedProduct in products)
-                {
-                    var product = await _context.Products.FindAsync(updatedProduct.ProductID);
-                    if (product != null)
-                    {
-                        product.Price = updatedProduct.Price;
-                        _context.Entry(product).State = EntityState.Modified;
-                        _logger.LogInformation($"ProductID: {product.ProductID}, Updated Price: {product.Price}");
-                    }
-                    else
-                    {
-                        _logger.LogWarning($"Product with ID {updatedProduct.ProductID} not found.");
-                    }
-                }
+                _context.Products.Add(newProduct);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(EditProductPrices)); // Of een andere relevante actie
+            }
+            return View(newProduct);
+        }
 
-                // Voeg een logbericht toe om te controleren of alle prijzen zijn bijgewerkt
-                _logger.LogInformation("Alle productprijzen zijn bijgewerkt.");
-
-                try
-                {
-                    await _context.SaveChangesAsync();
-                    // Voeg een logbericht toe om te controleren of SaveChangesAsync correct is aangeroepen
-                    _logger.LogInformation("Changes successfully saved to the database.");
-                }
-                catch (Exception ex)
-                {
-                    _logger.LogError($"Error saving changes to the database: {ex.Message}");
-                    throw;
-                }
-
+        [HttpPost]
+        public async Task<IActionResult> DeleteProduct(int productId)
+        {
+            var product = await _context.Products.FindAsync(productId);
+            if (product == null)
+            {
+                TempData["Error"] = "Het product is niet gevonden.";
                 return RedirectToAction(nameof(EditProductPrices));
             }
 
-            // Retourneer de view opnieuw als er iets misgaat
-            _logger.LogWarning("ModelState is not valid.");
-            return View(products);
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+            TempData["Success"] = "Het product is succesvol verwijderd.";
+            return RedirectToAction(nameof(EditProductPrices));
         }
     }
 }

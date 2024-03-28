@@ -1,0 +1,45 @@
+﻿@model broodjeszaak.Models.Product
+
+@{
+    ViewData["Title"] = "Voeg nieuw product toe";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+<form asp-action="CreateProduct" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="Name" class="control-label">Naam</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price" class="control-label">Prijs</label>
+        <input asp-for="Price" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImagePath" class="control-label">Afbeeldingspad</label>
+        <input asp-for="ImagePath" class="form-control" />
+        <span asp-validation-for="ImagePath" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Opslaan</button>
+</form>

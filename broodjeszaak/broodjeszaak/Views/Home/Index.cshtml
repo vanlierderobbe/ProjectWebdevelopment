@@ -1,30 +1,57 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@inject UserManager<IdentityUser> UserManager
+
+@{
     ViewData["Title"] = "Home Page";
+    var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+    var user = await UserManager.FindByIdAsync(userId);
+    var isApproved = user != null && (await UserManager.GetClaimsAsync(user)).Any(c => c.Type == "IsApproved" && c.Value == "True");
 }
 
-<div>
-    <h1>Welkom bij de Broodjeszaak</h1>
-    <h2>Menu</h2>
-    <ul>
-        <li>@Html.ActionLink("Bestelling plaatsen", "Create", "Order")</li>
-    </ul>
+<div class="jumbotron">
+    <h1 class="display-4">Welkom bij de Broodjeszaak!</h1>
+    <p class="lead">De beste plaats voor je dagelijkse broodjes.</p>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <p>Log in om te bestellen of maak een account aan als je nog geen account hebt.</p>
+        <p>
+            <a class="btn btn-primary btn-lg" href="@Url.Action("Login", "Account")" role="button">Log in</a>
+            <a class="btn btn-secondary btn-lg" href="@Url.Action("Register", "Account")" role="button">Register</a>
+        </p>
+    }
+    else if (!isApproved)
+    {
+        <p class="alert alert-info">Je account is nog in afwachting van goedkeuring door een beheerder. Zodra je account is goedgekeurd, kun je bestellingen plaatsen.</p>
+    }
+</div>
+
+<div class="container">
+    @if (isApproved)
+    {
+        <h2>Menu</h2>
+        <div class="list-group">
+            <a href="@Url.Action("Create", "Order")" class="list-group-item list-group-item-action">Bestelling plaatsen</a>
+        </div>
+    }
 
     @if (User.IsInRole("Admin"))
     {
         <h2>Admin</h2>
-        <ul>
-            <li>@Html.ActionLink("Beheer Bestellingen", "OrderList", "Admin")</li>
-            <li>@Html.ActionLink("Beheer prijzen", "EditProductPrices", "Admin")</li>
-            <li>@Html.ActionLink("Beheer Administrators en gebruikers", "Index", "Admin")</li>
-        </ul>
+        <div class="list-group">
+            <a href="@Url.Action("Index", "Admin")" class="list-group-item list-group-item-action">Beheer Administrators en gebruikers</a>
+            <a href="@Url.Action("OrderList", "Admin")" class="list-group-item list-group-item-action">Beheer Bestellingen</a>
+            <a href="@Url.Action("EditProductPrices", "Admin")" class="list-group-item list-group-item-action">Beheer producten en prijzen</a>
+            <a href="@Url.Action("CreateProduct", "Admin")" class="list-group-item list-group-item-action">Producten toevoegen</a>
+        </div>
     }
 
     @if (User.IsInRole("Employee") || User.IsInRole("Admin"))
     {
         <h2>Employee</h2>
-        <ul>
-            <li>@Html.ActionLink("Samenvatting van alle bestellingen", "Summary", "Order")</li>
-            <li>@Html.ActionLink("Individuele bestellingen bijhouden", "IndividualOrdersSummary", "Order")</li>
-        </ul>
+        <div class="list-group">
+            <a href="@Url.Action("Summary", "Order")" class="list-group-item list-group-item-action">Samenvatting van alle bestellingen</a>
+            <a href="@Url.Action("IndividualOrdersSummary", "Order")" class="list-group-item list-group-item-action">Individuele bestellingen bijhouden</a>
+        </div>
     }
 </div>
