@@ -48,7 +48,7 @@ namespace broodjeszaak.Controllers
                             {
                                 ProductId = productId,
                                 Quantity = quantity,
-                                Price = product.Price // Stel de prijs en eventueel andere velden in
+                                Price = product.Price
                             };
                             order.OrderDetails.Add(orderDetail);
                         }
@@ -67,12 +67,12 @@ namespace broodjeszaak.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken] // Zorg ervoor dat dit overeenkomt met je AJAX request
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateOrder([FromBody] CreateOrderViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var order = new Order { UserId = User.FindFirstValue(ClaimTypes.NameIdentifier) }; // Zorg dat dit overeenkomt met je User model
+                var order = new Order { UserId = User.FindFirstValue(ClaimTypes.NameIdentifier) };
 
                 foreach (var item in model.Cart)
                 {

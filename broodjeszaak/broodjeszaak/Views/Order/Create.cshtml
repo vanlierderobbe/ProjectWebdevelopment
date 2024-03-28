@@ -103,7 +103,7 @@
                 button.addEventListener('click', function () {
                     const productId = this.dataset.productId;
                     const productName = this.dataset.productName;
-                    const productPrice = parseFloat(this.dataset.productPrice); // Voeg deze regel toe om de prijs van het product op te halen
+                    const productPrice = parseFloat(this.dataset.productPrice);
                     const quantityInput = document.querySelector(`#quantity_${productId}`);
                     const quantity = parseInt(quantityInput.value, 10) || 0;
 
@@ -147,8 +147,6 @@
                             if (data.success) {
                                 localStorage.removeItem('cart'); // Leeg de winkelwagen na succesvolle bestelling
                                 alert('Bestelling succesvol geplaatst!'); // Toon een bevestigingsbericht
-
-                                // Optioneel: Update de UI om aan te geven dat de winkelwagen leeg is
                                 updateCartUI();
                             } else {
                                 alert('Er was een probleem met het plaatsen van de bestelling.');
@@ -160,7 +158,6 @@
             });
 
             function updateCartUI() {
-                // Implementeer logica hier om de UI te updaten, zoals het leegmaken van de tabel die de winkelwagen toont
                 const cartElement = document.querySelector('#cart tbody');
                 cartElement.innerHTML = ''; // Leeg de tabelinhoud
 

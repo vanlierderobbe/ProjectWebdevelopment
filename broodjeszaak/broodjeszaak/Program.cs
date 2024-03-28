@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Hangfire;
+using Hangfire.MySql;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +16,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
-    // Configureer overige opties zoals vereist
 })
 .AddRoles<IdentityRole>() // Voeg rollenondersteuning toe
 .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -95,13 +96,12 @@ async Task InitializeRolesAsync(RoleManager<IdentityRole> roleManager, UserManag
         {
             await userManager.AddToRoleAsync(employeeUser, "Employee"); // Voeg de rol "Employee" toe aan de gebruiker
         }
-        // Overweeg hier logging toe te voegen voor het geval dat het aanmaken van de werknemer mislukt
     }
 
     // Aanmaken van een standaard admin gebruiker
     var adminEmail = "admin@vives.be";
     var adminUserName = adminEmail;
-    var adminPassword = "Admin123!"; // Zorg voor een sterk wachtwoord in productie
+    var adminPassword = "Admin123!";
 
     var adminUser = await userManager.FindByEmailAsync(adminEmail);
     if (adminUser == null)
@@ -116,7 +116,6 @@ async Task InitializeRolesAsync(RoleManager<IdentityRole> roleManager, UserManag
         {
             await userManager.AddToRoleAsync(adminUser, "Admin");
         }
-        // Overweeg hier logging toe te voegen voor het geval dat het aanmaken van de admin mislukt
     }
 }
 

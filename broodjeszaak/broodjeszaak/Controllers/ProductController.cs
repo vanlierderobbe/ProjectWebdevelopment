@@ -4,7 +4,7 @@ namespace broodjeszaak.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly ApplicationDbContext _context; // Voorbeeld van een datacontext
+        private readonly ApplicationDbContext _context;
 
         public ProductController(ApplicationDbContext context)
         {

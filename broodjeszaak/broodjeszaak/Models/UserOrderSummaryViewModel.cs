@@ -27,12 +27,11 @@ namespace broodjeszaak.Models
         }
     }
 
-    // Als OrderDetail inderdaad als een ViewModel fungeert en past binnen je huidige structuur
     public class OrderDetailViewModel
     {
         public int OrderDetailId { get; set; }
         public int ProductId { get; set; }
-        public string ProductName { get; set; } // Aannemende dat je de productnaam wilt weergeven
+        public string ProductName { get; set; }
         public int Quantity { get; set; }
         private decimal _price;
         public decimal Price

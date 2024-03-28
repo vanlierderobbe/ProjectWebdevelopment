@@ -16,7 +16,7 @@ namespace broodjeszaak.Controllers
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            _logger = logger; // Zet de logger
+            _logger = logger;
         }
 
         [HttpGet]
@@ -34,12 +34,12 @@ namespace broodjeszaak.Controllers
                 var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User logged in."); // Voeg logging toe
+                    _logger.LogInformation("User logged in.");
                     return RedirectToLocal(returnUrl);
                 }
                 else
                 {
-                    _logger.LogWarning("Failed login attempt."); // Voeg logging toe voor mislukte pogingen
+                    _logger.LogWarning("Failed login attempt.");
                     ModelState.AddModelError(string.Empty, "Invalid login attempt.");
                     return View(model);
                 }

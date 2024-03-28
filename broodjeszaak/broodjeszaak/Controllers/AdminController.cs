@@ -1,13 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using broodjeszaak.Models; // Zorg ervoor dat je de juiste namespace gebruikt
-using System.Linq;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using broodjeszaak.Models;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Text;
 
 namespace broodjeszaak.Controllers
@@ -74,12 +70,10 @@ namespace broodjeszaak.Controllers
                 var admins = await _userManager.GetUsersInRoleAsync("Admin");
                 if (admins.Count <= 1)
                 {
-                    // Toon een foutmelding dat er minstens één admin moet blijven
                     TempData["Error"] = "Er moet minstens één admin overblijven.";
                 }
                 else
                 {
-                    // Als er meer admins zijn, ga door met het verwijderen
                     await _userManager.RemoveFromRoleAsync(user, "Admin");
                 }
             }
@@ -92,7 +86,6 @@ namespace broodjeszaak.Controllers
             var user = await _userManager.FindByIdAsync(userId);
             if (user != null)
             {
-                // Voeg hier de logica toe om de gebruiker goed te keuren, indien van toepassing
                 var claim = new Claim("IsApproved", "True");
                 var result = await _userManager.AddClaimAsync(user, claim);
 
@@ -109,20 +102,16 @@ namespace broodjeszaak.Controllers
                     else
                     {
                         _logger.LogWarning($"Kon gebruiker {user.Email} niet toevoegen aan 'User' rol.");
-                        // Hier kun je beslissen hoe je wilt omgaan met de fout
                     }
                 }
 
                 if (result.Succeeded)
                 {
-                    // Logica voor succesvolle goedkeuring, indien nodig
                     return RedirectToAction(nameof(Index));
                 }
                 else
                 {
-                    // Logica voor mislukte goedkeuring
                     _logger.LogWarning($"Kon gebruiker {user.Email} niet goedkeuren.");
-                    // Handel de fout af, bijvoorbeeld door een foutmelding te tonen
                 }
             }
             return RedirectToAction(nameof(Index));
@@ -172,7 +161,7 @@ namespace broodjeszaak.Controllers
                             {
                                 OrderDetailId = od.OrderDetailId,
                                 ProductId = od.ProductId,
-                                ProductName = od.Product.Name, // Aannemende dat je Product model een Name eigenschap heeft
+                                ProductName = od.Product.Name,
                                 Quantity = od.Quantity,
                                 Price = od.Price
                             }).ToList(),
@@ -203,9 +192,8 @@ namespace broodjeszaak.Controllers
                 {
                     OrderDetailId = od.OrderDetailId,
                     ProductId = od.ProductId,
-                    ProductName = od.Product.Name, // Pas aan gebaseerd op je model
+                    ProductName = od.Product.Name,
                     Quantity = od.Quantity
-                    // Voeg de prijs toe indien nodig
                 }).ToList()
             };
 
@@ -347,7 +335,6 @@ namespace broodjeszaak.Controllers
                 if (updatedProduct != null)
                 {
                     product.Price = updatedProduct.Price;
-                    // Pas hier andere velden aan indien nodig
                 }
             }
 
@@ -385,7 +372,7 @@ namespace broodjeszaak.Controllers
             {
                 _context.Products.Add(newProduct);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(EditProductPrices)); // Of een andere relevante actie
+                return RedirectToAction(nameof(EditProductPrices));
             }
             return View(newProduct);
         }
